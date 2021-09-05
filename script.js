@@ -4,7 +4,7 @@ var name = prompt('Введите своё имя')
 
 function myself() {
     let myname = name
-    let age =', Ваш возраст ' + (year , born)
+    let age =', Ваш возраст ' + (year - born)
     alert(myname + age)
 }
 myself()
